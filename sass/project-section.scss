@@ -1,0 +1,43 @@
+section#projects{
+    color: white;
+    background: $purple;
+    width: 100vw;
+    padding: 200px 0;
+}
+a.project-link{
+    text-decoration: none;
+}
+.project-box{
+    margin: 10px;
+    background: rgba(white, 0.8);
+    color: $navy;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s;
+    text-decoration: none;
+    h3{
+        font-size: 1.3rem;
+    }
+    video{
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+    .details{
+        font-size: 0.8rem;
+    }
+    &:hover{
+        background: white;
+        text-decoration: none;
+        transform: scale(1.005);
+    }
+}
+.project-content{
+    padding: 20px;
+}
+.project-row{
+    @include mQ ($xxl){
+        padding: 0 15%;
+    }
+}

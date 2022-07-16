@@ -1,0 +1,60 @@
+.project-container{
+    color: white;
+    background: $purple;
+    min-height: 100vh;
+}
+.img-container{
+    background: rgba(white, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 5px;
+    width: 100%;
+    img{
+        border-radius: 5px;
+    }
+    @include mQ ($md){
+        margin: 20px 5px;
+    }
+    @include mQ ($lg){
+        padding: 60px;
+    }
+}
+.row.mx-auto{
+    @include mQ ($lg){
+        width: 80%;
+    }
+    @include mQ ($xxl){
+        width: 50%;
+    }
+}
+
+.view-website{
+    position: fixed;
+    right: 0;
+    top: 80%;
+    background: $pink;
+    color: white;
+    padding: 10px;
+    border-radius: 15px 0 0 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    z-index: 4000;
+    box-shadow: $eq-box-shadow;
+    @include mQ ($md){
+        padding: 30px;
+    }
+    &:hover{
+        padding-right: 40px;
+        text-decoration: none;
+        color: white;
+        background: darken($pink, 5);
+    }
+}
+
+.mobile-view{
+    @include mQ ($lg){
+        img{
+            width: 80%!important;
+        }
+    }
+}
