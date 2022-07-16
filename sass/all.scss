@@ -642,7 +642,7 @@ section#landing{
     min-width: 100vw;
     height: 60vh;
     background: rgb(244,171,196);
-background: linear-gradient(0deg, rgba(244,171,196,1) 0%, rgba(89,91,131,1) 100%);
+    background: linear-gradient(0deg, rgba(244,171,196,1) 0%, rgba(89,91,131,1) 100%);
     overflow: hidden;
 }
 .landing-bg{
@@ -702,7 +702,10 @@ svg.logo{
     }
   }
 section#landing h1{
-    font-size: 1.5em;
+    font-size: 2em;
+}
+section#landing h2{
+    font-size: 1.2em;
 }
 @keyframes rotation {
     0% {
@@ -1074,6 +1077,12 @@ section#quote{
     }
     section#landing{
         height: 90vh;
+    }
+    section#landing h1{
+        font-size: 3rem;
+    }
+    section#landing h2{
+        font-size: 1.5rem;
     }
     .landing-bg{
         

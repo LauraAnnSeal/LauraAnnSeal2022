@@ -803,7 +803,11 @@ svg.logo {
   }
 }
 section#landing h1 {
-  font-size: 1.5em;
+  font-size: 2em;
+}
+
+section#landing h2 {
+  font-size: 1.2em;
 }
 
 @keyframes rotation {
@@ -1193,6 +1197,14 @@ section#quote {
     height: 90vh;
   }
 
+  section#landing h1 {
+    font-size: 3rem;
+  }
+
+  section#landing h2 {
+    font-size: 1.5rem;
+  }
+
   .landing-bg {
     min-height: 90vh;
   }
@@ -1309,18 +1321,25 @@ section#quote {
 }
 
 .img-container {
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 15px;
-  padding: 20px;
-  margin: 5px;
   width: 100%;
+  margin-bottom: 10px;
 }
 .img-container img {
-  border-radius: 5px;
+  border-right: 3px solid #595B83;
+  border-left: 3px solid #595B83;
 }
 @media only screen and (min-width: 768px) {
   .img-container {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
     margin: 20px 5px;
+    padding: 20px;
+    margin: 5px;
+    margin-bottom: 20px;
+  }
+  .img-container img {
+    border-radius: 5px;
+    border: none;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -1383,11 +1402,12 @@ a.project-link {
 }
 
 .project-box {
-  margin: 10px;
-  background: rgba(255, 255, 255, 0.8);
+  margin: 10px 10px 0 10px;
+  background: rgba(255, 255, 255, 0.9);
   color: #060930;
   padding: 0;
   border-radius: 5px;
+  overflow: hidden;
   overflow: hidden;
   transition: all 0.3s;
   text-decoration: none;
@@ -1407,6 +1427,11 @@ a.project-link {
   background: white;
   text-decoration: none;
   transform: scale(1.005);
+}
+@media only screen and (min-width: 768px) {
+  .project-box {
+    background: rgba(255, 255, 255, 0.8);
+  }
 }
 
 .project-content {

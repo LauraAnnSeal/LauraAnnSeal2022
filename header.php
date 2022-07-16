@@ -14,6 +14,25 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
+
+    <!-- Primary Meta Tags -->
+    <title>Laura Ann Seal – UX Engineer</title>
+    <meta name="title" content="Laura Ann Seal – UX Engineer">
+    <meta name="description" content="Digital expertise to take your project from concept to masterpiece. ">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lauraannseal.com/">
+    <meta property="og:title" content="Laura Ann Seal – UX Engineer">
+    <meta property="og:description" content="Digital expertise to take your project from concept to masterpiece. ">
+    <meta property="og:image" content="wp-content/themes/lauraannseal/assets/images/LAURAANNSEAL.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="wp-content/themes/lauraannseal/assets/images/LAURAANNSEAL.jpg">
+    <meta property="twitter:url" content="https://lauraannseal.com/">
+    <meta property="twitter:title" content="Laura Ann Seal – UX Engineer">
+    <meta property="twitter:description" content="Digital expertise to take your project from concept to masterpiece. ">
+    <meta property="twitter:image" content="">
 	
 	<!-- google analytics -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -33,11 +52,9 @@
     <!-- bootstrap core css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- link to fonts: Courier Prime -->
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap" rel="stylesheet">
     <!-- fontawesome icons -->
     <link rel="stylesheet" href="<?php bloginfo ('stylesheet_directory');?>/assets/fontawesome/css/all.min.css">
 

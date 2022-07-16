@@ -38,7 +38,8 @@ get_header();
                 <div class="col-12 text-center animated fadeIn">
                     <div class="logo">
                         <?php echo $svg; ?>
-                        <h1 class="text-white"><?php echo $website_name; ?></h1>
+                        <h2 class="text-white">Laura Ann Seal</h2>
+                        <h1 class="text-white">UX Engineer</h1>
                     </div>
                 </div>
             </div>

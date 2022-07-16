@@ -8,11 +8,12 @@ a.project-link{
     text-decoration: none;
 }
 .project-box{
-    margin: 10px;
-    background: rgba(white, 0.8);
+    margin: 10px 10px 0 10px;
+    background: rgba(white, 0.9);
     color: $navy;
     padding: 0;
     border-radius: 5px;
+    overflow: hidden;
     overflow: hidden;
     transition: all 0.3s;
     text-decoration: none;
@@ -31,6 +32,9 @@ a.project-link{
         background: white;
         text-decoration: none;
         transform: scale(1.005);
+    }
+    @include mQ ($md){
+        background: rgba(white, 0.8);
     }
 }
 .project-content{

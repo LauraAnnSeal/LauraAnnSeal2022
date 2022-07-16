@@ -22,7 +22,7 @@
                     
                     ?>
                     <!-- begin: project -->
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-3 pb-5">
                         <a class="project-link" href="<?php the_permalink() ?>">
                             <div class="project-box h-100">
                                 <div class="video">

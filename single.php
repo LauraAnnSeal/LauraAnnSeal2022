@@ -10,7 +10,7 @@
 get_header();
 ?>
 <a href="<?php echo get_field('link') ?>" target="_blank" class="view-website">View</a>
-<div class="container-fluid py-5 project-container">
+<div class="container-fluid py-5 px-0 px-md-4 project-container">
 		<div class="row mx-auto">
 			<div class="col-12">
 				<h1><?php echo get_field('project_name') ?></h1>
@@ -24,7 +24,7 @@ get_header();
 				$image = get_sub_field('image');
 				$mobile = get_sub_field('size')
 				?>
-				<div class="text-center <?php if($mobile){echo 'col-6 mobile-view'; } else {echo 'col-12';}?>">
+				<div class="text-center px-0 px-md-4 <?php if($mobile){echo 'col-6 mobile-view'; } else {echo 'col-12';}?>">
 					<div class="img-container">
 						<img class='w-100 mx-auto' src="<?php echo $image ?>" alt="">
 					</div>
